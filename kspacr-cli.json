@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kspacr/kspacr-cli/releases/download/v0.1.0/qovery-cli_0.1.0_windows_amd64.zip",
+            "bin": [
+                "kspacr.exe"
+            ],
+            "hash": "3396ab7a8f60b26319e0515c9723bb0c2e22834d12e8c0dd46626c74ebd94d23"
+        }
+    },
+    "homepage": "https://docs.kspacr.com",
+    "license": "GPL3",
+    "description": "Manage your kspacr resources and deploy applications to kspacr",
+    "persist": [
+        "data",
+        "config.toml"
+    ]
+}
