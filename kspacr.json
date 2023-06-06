@@ -1,0 +1,26 @@
+{
+    "version": "0.6.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kspacr/kspacr-cli/releases/download/v0.6.0/kspacr-cli_windows_x86_64.zip",
+            "bin": [
+                "kspacr.exe"
+            ],
+            "hash": "72a902a54c20622fcf9d183fa34e674ad657763f7ea9168196973981d27ce519"
+        }
+    },
+    "homepage": "https://kspacr.com/",
+    "license": "PRIVATE",
+    "description": "The kspacr.com command line interface",
+    "persist": [
+        "kubeconfs",
+        "config.yaml",
+        "private.key"
+    ],
+    "shortcuts": [
+        [
+            "kspacr.exe",
+            "kspacr"
+        ]
+    ]
+}
